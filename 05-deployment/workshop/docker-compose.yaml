@@ -1,0 +1,6 @@
+services:
+  predict:
+    build: .
+    ports:
+      - "9696:9696"
+    restart: unless-stopped
